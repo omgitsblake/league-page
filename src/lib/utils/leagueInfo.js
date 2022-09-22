@@ -7,7 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jpZj2abE2zY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<style>.embedtool {position: relative;height: 0;padding-top: 56%;overflow: hidden;max-width: 100%;} .embedtool iframe, .embedtool object, .embedtool embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } .embedtool .fluid-vids {position: initial !important}</style><div class="embedtool"><iframe src="https://www.youtube.com/embed/jpZj2abE2zY" frameborder="0" allowfullscreen></iframe></div>
 `;
 
 /*   STEP 3   */
